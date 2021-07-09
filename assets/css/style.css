@@ -9,7 +9,6 @@
 }
 .picture {
     background-color: white;
-    margin-left: 5em;
     margin-top: 5em;
 }
 .about-us {
@@ -23,5 +22,12 @@
     border: 1px solid lightgray; 
     position: absolute;
     color: white;
-    top: 50%;
+    top: 40%;
+}
+.menu {
+    background: #0f2f4e; 
+    padding: 1rem;
+    border: 1px solid white; 
+    color: white;
+    text-align: center;
 }
