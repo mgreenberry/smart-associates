@@ -1,0 +1,3 @@
+function(MouseEvent) {
+    this.MouseEvent
+}
