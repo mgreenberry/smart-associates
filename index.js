@@ -1,3 +1,0 @@
-function(MouseEvent) {
-    this.MouseEvent
-}

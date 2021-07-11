@@ -9,10 +9,11 @@
 }
 .picture {
     background-color: white;
-    margin-top: 5em;
+    margin-top: 1em;
 }
-.about-us {
-    background: url(../images/cover-image.jpg) no-repeat center center;
+#main-image {
+    background: url(../images/cover-image.jpg) no-repeat center center fixed;
+    background-size: cover;
     margin-left: 10rem;
     padding: 20rem;
 }
@@ -20,14 +21,16 @@
     background: #0f2f4e; 
     padding: 1rem; 
     border: 1px solid lightgray; 
-    position: absolute;
     color: white;
-    top: 40%;
+    position: absolute;
+    left: 0;
 }
 .menu {
     background: #0f2f4e; 
     padding: 1rem;
     border: 1px solid white; 
-    color: white;
     text-align: center;
+}
+.menu-options {
+    color: white !important;
 }
