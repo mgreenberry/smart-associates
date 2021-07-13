@@ -1,10 +1,10 @@
 * {
-    color: white;
+    color: black;
 }
-.background {
+#picture-background {
     background-color: black;
 }
-.text {
+.hero-text {
     color: white;
 }
 .centered {
@@ -27,6 +27,7 @@
     color: white;
     position: absolute;
     left: 0;
+    margin-left: 1rem;
 }
 .menu {
     background: #0f2f4e; 
@@ -36,4 +37,12 @@
 }
 .menu-options {
     color: white !important;
+}
+#second-section {
+    background: black
+}
+#menu-text{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 2rem;
 }
