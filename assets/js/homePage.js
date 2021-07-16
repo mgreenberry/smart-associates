@@ -74,9 +74,7 @@ function contactUs() {
     `;
 }
 function logIn() {
-alert ("hello");
-}
-/*(`
+  document.getElementById('menu-text').innerHTML=`
 <div id="log-in">
   <div class="col-12 form-row">
       <label class="form-text col-lg" for="user-name">User Name</label>
@@ -88,28 +86,5 @@ alert ("hello");
     <button type="submit" class="btn" id="log-in">Log In</button>
     <button type="submit" class="btn" id="log-in">Create Account</button>
 </div>
-  `);*/
-
-function logIn() {
-  document.getElementById('create-account').innerHTML=`
-  <div id="sign-up-form">
-    <div class="staff col-12 form-row">
-      <label class="form-text col-sm" for="first-name">First Name</label>
-      <input class="form-text col-sm" type="text" name="fname" placeholder="First Name *" id="first-name" required>
-      <label class="form-text col-sm" for="last-name">Last Name</label>
-      <input class="form-text col-sm" type="text" name="lname" placeholder="Last Name *" id="last-name" required>
-    </div>
-    <div class="staff col-12 form-row">
-      <label class="form-text col-md" for="email-address">Email Address</label>
-      <input class="form-text col-md" type="text" name="email" placeholder="Email Address *" id="email-address" required>
-      <label class="form-text col-md" for="password">Password</label>
-      <input class="form-text col-md" type="text" name="password" placeholder="Password *" id="password" required>
-    </div>
-    <div class="staff col-12 form-row">
-      <button type="reset" class="btn">Clear Form</button>
-      <button type="submit" class="btn">Sign In</button>
-      <button type="submit" class="btn">Create Account</button>
-    </div>
-  </div>
   `;
 }

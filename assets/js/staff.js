@@ -23,3 +23,20 @@ function staff() {
   </div>
   `;
 }
+
+
+
+
+let logInForm = document.getElementById("log-in");
+let LogIn = document.getElementById("log-in");
+let cancel = document.getElementById("cancel")[0];
+getElementById("log-in").document.addEventListener = function () {
+  staffForm = "staff-form"
+}
+document.addEventListener = function() {
+  staffForm = "none";
+}
+window.addEventListener = function(event) {
+  if (event.target === modal) {
+    staffForm = "none"
+  }
