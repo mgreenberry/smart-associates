@@ -39,7 +39,7 @@
     color: white !important;
     display:inline-block;
 }
-#staff {
+.staff {
     color: white !important;
     float: right;
     margin-right: 1rem;
@@ -80,4 +80,13 @@ Code adapted from https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
 }
 .menu-text {
     color: white;
+}
+#modal-form {
+    padding: 20px;
+}
+.form-content {
+    background-color: white;
+    margin: 10% auto;
+    border: 1px solid black;
+    width: 60%;
 }

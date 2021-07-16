@@ -1,12 +1,10 @@
-// When the user scrolls the page, execute myFunction
+/* When the user scrolls the page, execute myFunction
+Code adapted from https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
 window.onscroll = function() {myFunction()};
-
 // Get the navbar
-var navbar = document.getElementById("navbar");
-
+let navbar = document.getElementById("navbar");
 // Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
+let sticky = navbar.offsetTop;
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
   if (window.pageYOffset >= sticky) {
@@ -15,10 +13,13 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
-// Change content of div/paragraph under each menu option:
+// Ends adapted code from w3schools.com//
+/* My code
+// Change content of div/paragraph under each menu option:*/
 document.getElementById("about-us").addEventListener("click", aboutUs);
 document.getElementById("projects").addEventListener("click", projects);
 document.getElementById("contact-us").addEventListener("click", contactUs);
+document.getElementById("log-in").addEventListener("click", logIn);
 
 // Function to change text displayed depending on which option use has clicked:
 function aboutUs() {
@@ -71,4 +72,44 @@ function contactUs() {
   </form>
 </div>
     `;
+}
+function logIn() {
+alert ("hello");
+}
+/*(`
+<div id="log-in">
+  <div class="col-12 form-row">
+      <label class="form-text col-lg" for="user-name">User Name</label>
+      <input class="form-text col-lg" type="text" name="user-name" placeholder="Email Username *" id="user-name" required>
+      <label class="form-text col-lg" for="password">Password</label>
+      <input class="form-text col-lg" type="text" name="password" placeholder="Enter Password *" id="password" required>
+  </div>
+    <button type="reset" class="btn">Clear Form</button>
+    <button type="submit" class="btn" id="log-in">Log In</button>
+    <button type="submit" class="btn" id="log-in">Create Account</button>
+</div>
+  `);*/
+
+function logIn() {
+  document.getElementById('create-account').innerHTML=`
+  <div id="sign-up-form">
+    <div class="staff col-12 form-row">
+      <label class="form-text col-sm" for="first-name">First Name</label>
+      <input class="form-text col-sm" type="text" name="fname" placeholder="First Name *" id="first-name" required>
+      <label class="form-text col-sm" for="last-name">Last Name</label>
+      <input class="form-text col-sm" type="text" name="lname" placeholder="Last Name *" id="last-name" required>
+    </div>
+    <div class="staff col-12 form-row">
+      <label class="form-text col-md" for="email-address">Email Address</label>
+      <input class="form-text col-md" type="text" name="email" placeholder="Email Address *" id="email-address" required>
+      <label class="form-text col-md" for="password">Password</label>
+      <input class="form-text col-md" type="text" name="password" placeholder="Password *" id="password" required>
+    </div>
+    <div class="staff col-12 form-row">
+      <button type="reset" class="btn">Clear Form</button>
+      <button type="submit" class="btn">Sign In</button>
+      <button type="submit" class="btn">Create Account</button>
+    </div>
+  </div>
+  `;
 }
