@@ -15,10 +15,9 @@ function menuOptions() {
 }
 // Ends adapted code from w3schools.com//
 //create an array of images
-// window.onload = function() {choosePic()};
-document.getElementById("change-image").addEventListener("click", choosePic);
+document.getElementById("services").addEventListener("click", choosePic);
 document.getElementById("projects").addEventListener("click", choosePic);
-document.getElementById("contact").addEventListener("click", choosePic);
+document.getElementById("contact-us").addEventListener("click", choosePic);
 
 let projectImages = new Array("assets/images/index/coverimage1.jpg", "assets/images/index/coverimage2.jpg", "assets/images/index/coverimage3.jpg","assets/images/index/coverimage4.jpg", "assets/images/index/coverimage5.jpg", "assets/images/index/coverimage6.jpg");
 
