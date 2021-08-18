@@ -94,7 +94,7 @@ function projects() {
   </ul>
   <p>A 34 unit apartment block and associated housing on the site of the former Magistrates Court, Mountain Road, Caerphilly.</p>
   <p>A challenging passivhaus project which incorporated loadbearing masonry and intricate detailing to accommodate the architectural design.</p>
-  <p>As the development is located on a former infilled quarry together with the proximity of the trees near the development boundary, a piled foundation solution with associated heavy protection was utilised</p>
+  <p>As the development is located on a former infilled quarry together with the proximity of the trees near the development boundary, a piled foundation solution with associated heave protection was utilised</p>
   <div class="centered padding">
   <button class="button cancel" onclick="projects();">&times; close</button>
   </div>     
@@ -167,8 +167,8 @@ function projects() {
         Client: Linc-Cymru Housing Association
       </li>
     </ul>
-    <p>A 48 bed care / extra care unit together with 18 residential properties situated adjacent to the new Brynmenyn Primary School. Close liaising with the design team on the nearby college enable us to co-ordinate the design successfully.</p>
-    <p>Drainage solutions included ground infiltration / soakaways for the domestic surface water, connection to the existing system for the highway drainage and foul water to the existing DCWW public sewer system. Also a diversion of an existing pumped foul water rising which served  the nearby college. Section 38 ( highways ) and Sections 185 /104 ( drainage ) were progressed to completion for this development.</p>
+    <p>A 48 bed care / extra care unit together with 18 residential properties situated adjacent to the new Brynmenyn Primary School. Close liaising with the design team on the nearby college enabled us to co-ordinate the design successfully.</p>
+    <p>Drainage solutions included ground infiltration / soakaways for the domestic surface water, connection to the existing system for the highway drainage and foul water to the existing DCWW public sewer system. Also a diversion of an existing pumped foul water rising which served the nearby college. Section 38 ( highways ) and Sections 185 /104 ( drainage ) were progressed to completion for this development.</p>
     <p>Past history established that a mine shaft was present, and subsequently treated and capped.</p>
     <p>A raft foundation solution was developed to guard against mining subsidence.</p>
     <div class="centered padding">
@@ -376,18 +376,18 @@ function projectInfo6() {
 <h3 class="centered">Lanelay Road Build, Talbot Green</h3>
 <ul>
 <li>
-  Location: Talbot Green, Llantrisant, RCT
+  Location: 
 </li>
 <li>
-  Main Contractor: W K Plasterers
+  Main Contractor: 
 </li>
 <li>
-  Client: W K Plasterers & Newydd Housing Association
+  Client: 
 </li>
 </ul>
-<p>Construction of a four storey using proprietary metal frame system for this previously developed site.</p>
-<p>As this is a steep site, with roads to three sides, a part basement and being in close proximity to an adjacent terraced property presented significant difficulties in formulating a suitable piled foundation system which required cantilevered and stepped ground beams to accommodate the proposed and existing levels.</p>
-<p>Drainage was connected to the existing DCWW public combined water system within Belvedere Crescent with a Section 104 drainage agreement being obtained.</p>
+<p></p>
+<p></p>
+<p></p>
 <div class="centered padding">
 <button class="button cancel" onclick="projects()">&times; close</button>
 </div>
