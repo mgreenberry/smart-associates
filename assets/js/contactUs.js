@@ -20,12 +20,6 @@ function contactUs() {
         <input class="col-md field" id="email" type="email" name="from_email" placeholder="e.g. you@your_email.com" required>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-8 offset-md-2">
-        <label class="col-md" for="confirm-email">Confirm Email address</label>
-        <input class="col-md field" id="confirm-email" type="email" name="confirm-email" placeholder="e.g. you@your_email.com" required>
-        </div>
-      </div>
       <div class="centered" id="alert"></div>
       <div class="row">
         <div class="col-md-8 offset-md-2">
@@ -66,38 +60,13 @@ function contactUs() {
   adapted by Michael Greenberry and with fantastic help from @Scott Böning_lead */
   function check(form) {
     event.preventDefault(); //stops the page refreshing to index.html
-    let email1 = document.getElementById("email"); 
-    let email2 = document.getElementById("confirm-email");
-    if (email1.value.length === 0 || email2.value.length === 0) { // captures the entry in the 'email' and 'confirm email' fields and checks if blank
-        document.getElementById(
-            "alert"
-        ).innerHTML = `
-        <br>
-        <div class="col-md-8 offset-md-2">
-        <p id="errors">Pease enter your email address into both the email address and confirm email address field</p>
-        </div>
-        `;
-    } else if (email1.value !== email2.value) { // if the two fields ('email' & 'confirm email') do not match then the user will get an error message
-        document.getElementById(
-            "alert"
-        ).innerHTML = `
-        <br>
-        <div class="col-md-8 offset-md-2">
-        <p id="errors">Sorry the email addresses don't match. Please enter the same email address into both the email address and confirm email address</p>
-        </div>
-        `;
-    } else if (email1.value === email2.value) { // if both fields match then a success message appears to the user
-        document.getElementById(
-            "alert"
-        ).innerHTML = `
-        <br>
-        <div class="col-md-8 offset-md-2">
-        <p id="success">Thank you for confirming your email address</p>
-        </div>
-        `;
-        contactForm(form);
-    }
-    
+    let email1 = document.getElementById("email");
+    if (email1.value.length === 0) { // captures the entry in the 'email' and 'confirm email' fields and checks if blank
+      console.log("Enter Email Address");  
+    } else if (email1.value !== 0) {
+      console.log("Email Address entered");
+      contactForm(form);
+    }     
 }
 /* Function to send form once the 'check()' function has completed. 
 Code heavily influenced from Code Institute with amendments by Michael Greenberry with help form Igor from the Tutor Support*/

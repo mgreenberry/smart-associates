@@ -5,7 +5,7 @@ function projects() {
     document.getElementById('menu-text').innerHTML=`
 <div class="container-fluid" id="menu-content">
   <div id="existing-projects">
-    <h3 class="centered">A selection of the projects we have been involved in</h3>
+    <h3 class="centered">A selection of the thousands of projects we have been involved in</h3>
     <p class="centered">Please click a project image for more information and a slideshow of some of the images of the project</p>
     <div class="row">
       <div class="col-md">
@@ -44,30 +44,15 @@ function projects() {
       </div>
       <div class="col-md">
         <div  id="project6">
-          <img onclick="projectInfo6()" src="assets/images/projects/lanelay/la05.jpg" class="project-main-image" alt="Lanelay Road, Llantrisant">
+          <img onclick="projectInfo6()" src="assets/images/projects/lanelay/la05.jpg" class="project-main-image" alt="Lanelay Road, Talbot Green">
           <h3 class="centered">Lanelay Road Build, Llantrisant</h3>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-10 offset-md-1">
-          <div class="centered">
-            <h3 class="centered">Project locations</h3>
-            <p class="centered">Please use the controls on the map to zoom in and out to see the projects</p>
-            <div class="centered" id="map"></div>
-          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
     `;
-    initMap(); // loads function to load an interactive map
   }
-  /* The following Carousel code used in the following functions adapted from the following: - 
-  https://getbootstrap.com/docs/4.5/components/carousel/ 
-  Extra content and code by user. Extra content loads when user clicks a photograph of a project */
   function projectInfo1() {
       projects(); // closes all opened extra content
       document.getElementById("project1").innerHTML = `
@@ -98,16 +83,18 @@ function projects() {
 <h3 class="centered">Ex. Magistrates Court, Caerphilly</h3>
   <ul>
     <li>
-      Location: Caerphilly
+      Location: Off Mountain Road, Caerphilly
     </li>
     <li>
-      Contractor: Jehu
+      Main Contractor: Jehu
     </li>
     <li>
-      Client: Linc-Cymru
+      Client: Linc-Cymru Housing Association
     </li>
   </ul>
-  <p>A 34 unit apartment block and associated housing on the site of the former Magistrates Court, Mountain Road, Caerphilly. A challenging, loadbearing masonry, Passivhaus project, with piled foundations and heave precautions on this original infilled quarry, overshadowed with many trees to the boundaries.</p>
+  <p>A 34 unit apartment block and associated housing on the site of the former Magistrates Court, Mountain Road, Caerphilly.</p>
+  <p>A challenging passivhaus project which incorporated loadbearing masonry and intricate detailing to accommodate the architectural design.</p>
+  <p>As the development is located on a former infilled quarry together with the proximity of the trees near the development boundary, a piled foundation solution with associated heavy protection was utilised</p>
   <div class="centered padding">
   <button class="button cancel" onclick="projects();">&times; close</button>
   </div>     
@@ -171,16 +158,19 @@ function projects() {
 <h3 class="centered">Ex. Archbishop McGrath School, Brynmenyn</h3>
     <ul>
       <li>
-        Location: Brynmenyn
+        Location: Brynmenyn, Bridgend
       </li>
       <li>
-        Contractor: Jehu
+        Main Contractor: Jehu
       </li>
       <li>
-        Client: Linc-Cymru
+        Client: Linc-Cymru Housing Association
       </li>
     </ul>
-    <p>A 48 bed Care/Extra Care and 18 unit associated housing project for Linc and Jehu post-contract. All surface water taken to infiltration systems, with foul drainage taken to adoptable sewers within the neighbouring road. Dealings with DCWW included for the diversion of a pumping main serving the adjacent College and liaison with the nearby school being built at the same time to coordinate interface issues. The past history of the site left an abandoned mine shaft which was treated and capped. All foundations were rafted to guard against mining subsidence.</p>
+    <p>A 48 bed care / extra care unit together with 18 residential properties situated adjacent to the new Brynmenyn Primary School. Close liaising with the design team on the nearby college enable us to co-ordinate the design successfully.</p>
+    <p>Drainage solutions included ground infiltration / soakaways for the domestic surface water, connection to the existing system for the highway drainage and foul water to the existing DCWW public sewer system. Also a diversion of an existing pumped foul water rising which served  the nearby college. Section 38 ( highways ) and Sections 185 /104 ( drainage ) were progressed to completion for this development.</p>
+    <p>Past history established that a mine shaft was present, and subsequently treated and capped.</p>
+    <p>A raft foundation solution was developed to guard against mining subsidence.</p>
     <div class="centered padding">
     <button class="button cancel" onclick="projects()">&times; close</button>
     </div>
@@ -235,13 +225,15 @@ function projectInfo3() {
     Location: Newport
   </li>
   <li>
-    Contractor: Jehu
+    Main Contractor: Jehu
   </li>
   <li>
-    Client: Linc-Cymru
+    Client: Linc-Cymru Housing Association
   </li>
 </ul>
-<p>A 38 four storey apartment block of timber frame construction founded on piled ground beams due to the presence of fill overlying soft alluvial deposits. Much drainage survey work was required and liaison with Railtrack and Newport land drainage to allow restricted discharge to an existing surface water culvert on the boundary of the site.</p>
+<p>A four storey building with 38 apartments which was constructed as a timber frame structure.</p>
+<p>Due to the presence of fill material overlying alluvial deposits, a piled foundation solution with reinforced ground beams was designed.</p>
+<p>Extensive drainage survey work was carried out and close liaising with Railtrack and Newport Land Drainage required to allow a restricted discharge of surface water to the existing culvert on the development boundary. On site surface water storage was designed to cater for the required discharge rate.</p>
 <div class="centered padding">
 <button class="button cancel" onclick="projects()">&times; close</button>
 </div>
@@ -281,16 +273,18 @@ function projectInfo4() {
 <h3 class="centered">Merthyr Street Build, Barry</h3>
 <ul>
 <li>
-  Location: Barry
+  Location: Barry, Vale of Glamorgan
 </li>
 <li>
-  Contractor: W K Plasterers
+  Main Contractor: W K Plasterers
 </li>
 <li>
-  Client: W K Plasterers
+  Client: W K Plasterers & Newydd Housing Association
 </li>
 </ul>
-<p>A four storey proprietary metal frame system build on this previously developed site. The original building, with roads to three sides, and having a part basement and adjacent to the end of a terrace presented engineering difficulties in devising a suitable piled foundation system, requiring cantilevered and stepped foundation details.</p>
+<p>Construction of a four storey using proprietary metal frame system for this previously developed site.</p>
+<p>As this is a steep site, with roads to three sides, a part basement and being in close proximity to an adjacent terraced property presented significant difficulties in formulating a suitable piled foundation system which required cantilevered and stepped ground beams to accommodate the proposed and existing levels.</p>
+<p>Drainage was connected to the existing DCWW public combined water system within Belvedere Crescent with a Section 104 drainage agreement being obtained.</p>
 <div class="centered padding">
 <button class="button cancel" onclick="projects()">&times; close</button>
 </div>
@@ -329,13 +323,15 @@ function projectInfo5() {
   Location: Cardiff
 </li>
 <li>
-  Contractor: Hale Construction
+  Main Contractor: Hale Construction
 </li>
 <li>
   Client: Wales and West Housing Association
 </li>
 </ul>
-<p>A 54 unit four and part three storey apartment block for Hale Construction on behalf of Wales and West Housing Association. This inner city development has a range of amenity and bio-diversity boosting SuDS features gaining SAB approval from Cardiff City Council at the very start of the mandatory SAB process. Foundations are all deep trench strip with foundation details devised to take account of the original basement constructions.</p>
+<p>A 54 unit four and part three storey apartment block for Hale Construction on behalf of Wales and West Housing Association.</p>
+<p>This inner city development has a range of amenity and bio-diversity boosting SuDS features gaining SAB approval from Cardiff City Council at the very start of the mandatory SAB process.</p>
+<p>Foundations are all deep trench strip with foundation details devised to take account of the original basement constructions.</p>
 <div class="centered padding">
 <button class="button cancel" onclick="projects()">&times; close</button>
 </div>
@@ -348,7 +344,7 @@ function projectInfo6() {
 <div id="carouselExampleCaptions6" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/images/projects/lanelay/la05.jpg" class="project-main-image d-block w-75" alt="Lanelay Road, Llantrisant">
+      <img src="assets/images/projects/lanelay/la05.jpg" class="project-main-image d-block w-75" alt="Lanelay Road, Talbot Green">
       <div class="carousel-caption d-none d-md-block"></div>
     </div>
     <div class="carousel-item">
@@ -377,19 +373,21 @@ function projectInfo6() {
     <span class="sr-only">Next</span>
   </a>
 </div>
-<h3 class="centered">Lanelay Road Build, Llantrisant</h3>
+<h3 class="centered">Lanelay Road Build, Talbot Green</h3>
 <ul>
 <li>
-  Location: Llantrisant
+  Location: Talbot Green, Llantrisant, RCT
 </li>
 <li>
-  Contractor: Hafod
+  Main Contractor: W K Plasterers
 </li>
 <li>
-  Client: Holbrook Homes
+  Client: W K Plasterers & Newydd Housing Association
 </li>
 </ul>
-<p>This three/four storey, 15-unit, apartment block is split level due to site levels and planning constraints. A former car sale, this tight site is sloping with the rear lane access being elevated some 2.5 m above the general site level. Concerns regarding vehicular safety of the existing lane access were fully mitigated after consultations with the Highway Authority.</p>
+<p>Construction of a four storey using proprietary metal frame system for this previously developed site.</p>
+<p>As this is a steep site, with roads to three sides, a part basement and being in close proximity to an adjacent terraced property presented significant difficulties in formulating a suitable piled foundation system which required cantilevered and stepped ground beams to accommodate the proposed and existing levels.</p>
+<p>Drainage was connected to the existing DCWW public combined water system within Belvedere Crescent with a Section 104 drainage agreement being obtained.</p>
 <div class="centered padding">
 <button class="button cancel" onclick="projects()">&times; close</button>
 </div>
