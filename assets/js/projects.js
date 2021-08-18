@@ -25,13 +25,13 @@ function projects() {
       <div class="col-md">
         <div id="project3">
           <img onclick="projectInfo3()" src="assets/images/projects/durham/dh05.jpg" class="project-main-image" alt="Durham Road Build">
-          <h3 class="centered">Durham Road Build, Newport</h3>
+          <h3 class="centered">Durham Road Development, Newport</h3>
         </div>
       </div>
       <div class="col-md">
         <div id="project4">
           <img onclick="projectInfo4()" src="assets/images/projects/merthyr/me04.jpg" class="project-main-image" alt="Merthyr Street Build">
-          <h3 class="centered">Merthyr Street Build, Barry</h3>
+          <h3 class="centered">Merthyr Street Development, Barry</h3>
         </div>
       </div>
     </div>
@@ -39,13 +39,13 @@ function projects() {
       <div class="col-md">
         <div  id="project5">
           <img onclick="projectInfo5()" src="assets/images/projects/harrison/ha03.jpg" class="project-main-image" alt="Ex. Blue Dragon Hotel, Newport Road">
-          <h3 class="centered">Harrison Drive Build, Cardiff</h3>
+          <h3 class="centered">Harrison Drive Development, Cardiff</h3>
           </div>
       </div>
       <div class="col-md">
         <div  id="project6">
           <img onclick="projectInfo6()" src="assets/images/projects/lanelay/la05.jpg" class="project-main-image" alt="Lanelay Road, Talbot Green">
-          <h3 class="centered">Lanelay Road Build, Llantrisant</h3>
+          <h3 class="centered">Lanelay Road Development, Llantrisant</h3>
         </div>
       </div>
     </div>
@@ -219,7 +219,7 @@ function projectInfo3() {
     <span class="sr-only">Next</span>
   </a>
 </div>
-<h3 class="centered">Durham Road Build, Newport</h3>
+<h3 class="centered">Durham Road Development, Newport</h3>
 <ul>
   <li>
     Location: Newport
@@ -270,7 +270,7 @@ function projectInfo4() {
     <span class="sr-only">Next</span>
   </a>
 </div>
-<h3 class="centered">Merthyr Street Build, Barry</h3>
+<h3 class="centered">Merthyr Street Development, Barry</h3>
 <ul>
 <li>
   Location: Barry, Vale of Glamorgan
@@ -317,7 +317,7 @@ function projectInfo5() {
     <span class="sr-only">Next</span>
   </a>
 </div>
-<h3 class="centered">Harrison Drive Build, Cardiff</h3>
+<h3 class="centered">Harrison Drive Development, Cardiff</h3>
 <ul>
 <li>
   Location: Cardiff
@@ -373,21 +373,21 @@ function projectInfo6() {
     <span class="sr-only">Next</span>
   </a>
 </div>
-<h3 class="centered">Lanelay Road Build, Talbot Green</h3>
+<h3 class="centered">Lanelay Road Development, Talbot Green</h3>
 <ul>
 <li>
-  Location: 
+  Location: Talbot Green, Llantrisant, RCT
 </li>
 <li>
-  Main Contractor: 
+  Main Contractor: Holbrook Homes
 </li>
 <li>
-  Client: 
+  Client: Hafod Housing Association
 </li>
 </ul>
-<p></p>
-<p></p>
-<p></p>
+<p>A three/four storey, 15 appartment block which incorporated split levels due to the topography of the development site and planing constraints</p>
+<p>Located on a former car sales plot, this tight sloping site has a rear entrance served from the adjacent lane with is some 2.5 m. above the building level.</p>
+<p>Concerns regarding vehicular safety on the existing lane were fully mitigated after consultations with the Highway Authority.</p>
 <div class="centered padding">
 <button class="button cancel" onclick="projects()">&times; close</button>
 </div>
